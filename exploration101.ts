@@ -1,3 +1,3 @@
 function showText() {
-    var textDisplayParagraph = document.getElementById("");
+    var textDisplayParagraph = document.getElementById("textDisplay");
 }
