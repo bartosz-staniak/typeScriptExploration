@@ -3,5 +3,5 @@ function showText() {
     
     var textToDisplay = "testing";
 
-    textDisplayParagraph.style.display = textToDisplay;
+    textDisplayParagraph.style.display = "textToDisplay";
 }
