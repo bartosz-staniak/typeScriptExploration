@@ -1,5 +1,6 @@
+var textDisplayParagraph = document.getElementById("textDisplay");
+
 function showText() {
-    var textDisplayParagraph = document.getElementById("textDisplay");
     
     var textToDisplay = "testing";
 
