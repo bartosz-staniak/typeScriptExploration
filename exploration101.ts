@@ -1,6 +1,6 @@
 var textDisplayParagraph = document.getElementById("textDisplay")?.textContent;
 
-function showText_ts() {
+function showText() {
     
     var textToDisplay = "testing";
 
