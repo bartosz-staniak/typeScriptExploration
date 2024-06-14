@@ -1,4 +1,4 @@
-var textDisplayParagraph = document.getElementById("textDisplay");
+var textDisplayParagraph = document.getElementById("textDisplay")?.textContent;
 
 function showText() {
     
