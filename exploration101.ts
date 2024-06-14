@@ -1,3 +1,5 @@
+export{}
+
 var textDisplayParagraph = document.getElementById("textDisplay")?.textContent;
 
 function showText() {
