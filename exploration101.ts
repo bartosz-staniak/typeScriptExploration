@@ -13,5 +13,7 @@ function showText() {
 
     var someNumber = 2;
 
+    var oneMoreNumber;
+
     if (textDisplayDiv) textDisplayDiv.innerHTML = textToDisplay;
 }
