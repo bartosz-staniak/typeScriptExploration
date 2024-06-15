@@ -1,6 +1,6 @@
 // export{} //solves duplicate function error
 
-var textDisplayParagraph = document.getElementById("textDisplay")?.innerHTML;
+const textDisplayParagraph = document.getElementById("textDisplay")?.innerHTML;
 
 function showText() {
     
