@@ -11,5 +11,7 @@ function showText() {
 
     textToDisplay = 3;
 
+    var someNumber = 2;
+
     if (textDisplayDiv) textDisplayDiv.innerHTML = textToDisplay;
 }
