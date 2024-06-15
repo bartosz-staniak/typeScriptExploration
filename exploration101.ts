@@ -1,4 +1,4 @@
-// export{} //solves duplicate function error
+export{} //solves duplicate function error
 
 function showText() {
     
