@@ -17,5 +17,7 @@ function showText() {
 
     oneMoreNumber = textToDisplay + someNumber;
 
+    console.log(oneMoreNumber);
+
     if (textDisplayDiv) textDisplayDiv.innerHTML = textToDisplay;
 }
