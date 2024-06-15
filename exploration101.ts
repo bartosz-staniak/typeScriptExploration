@@ -6,5 +6,5 @@ function showText() {
 
     var textToDisplay = "testing";
 
-    textDisplayParagraph?.textContent = textToDisplay;
+    if (textDisplayParagraph) textDisplayParagraph?.textContent = textToDisplay;
 }
