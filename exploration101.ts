@@ -2,7 +2,7 @@
 
 function showText() {
     
-    const textDisplayParagraph = document.getElementById("textDisplay");
+    const textDisplayDiv = document.getElementById("textDisplay");
 
     var textToDisplay = "testing";
 
