@@ -7,5 +7,7 @@ function showText() {
 
     var textToDisplay = "testing";
 
+    textToDisplay = 3;
+
     if (textDisplayDiv) textDisplayDiv.innerHTML = textToDisplay;
 }
