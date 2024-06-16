@@ -8,6 +8,7 @@ function showText() {
     textToDisplay = 3;
     var someNumber = 2;
     var oneMoreNumber;
+    oneMoreNumber += textToDisplay + someNumber; //results in NaN
     oneMoreNumber += textToDisplay + someNumber;
     console.log(oneMoreNumber);
     if (textDisplayDiv)
