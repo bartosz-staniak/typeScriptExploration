@@ -5,7 +5,7 @@ function showText() {
     
     const textDisplayDiv = document.getElementById("textDisplay");
 
-    const var textToDisplay; // = "testing";
+    const textToDisplay; // = "testing";
 
     textToDisplay = "testing";
 
