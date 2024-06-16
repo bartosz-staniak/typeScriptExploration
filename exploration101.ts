@@ -15,7 +15,7 @@ function showText() {
 
     var oneMoreNumber;
 
-    oneMoreNumber += textToDisplay + someNumber;
+    oneMoreNumber += textToDisplay + someNumber; //results in NaN
 
     console.log(oneMoreNumber);
 
