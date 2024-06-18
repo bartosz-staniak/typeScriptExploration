@@ -22,3 +22,25 @@ function showText() {
 
     if (textDisplayDiv) textDisplayDiv.innerHTML = textToDisplay;
 }
+
+function showText() {
+    
+    const textDisplayDiv = document.getElementById("textDisplay");
+
+    var textToDisplay; // = "testing";
+
+    textToDisplay = "testing";
+
+    textToDisplay = 3;
+
+    var someNumber = 2;
+
+    var oneMoreNumber;
+
+    oneMoreNumber += textToDisplay + someNumber; //results in NaN
+    oneMoreNumber += textToDisplay + someNumber;
+
+    console.log(oneMoreNumber);
+
+    if (textDisplayDiv) textDisplayDiv.innerHTML = textToDisplay;
+}
