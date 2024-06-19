@@ -23,7 +23,7 @@ function showText() {
     if (textDisplayDiv) textDisplayDiv.innerHTML = textToDisplay;
 }
 
-function showText() {
+function showText2() {
     
     const textDisplayDiv = document.getElementById("textDisplay");
 
