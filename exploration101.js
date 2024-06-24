@@ -14,3 +14,16 @@ function showText() {
     if (textDisplayDiv)
         textDisplayDiv.innerHTML = textToDisplay;
 }
+function showText2() {
+    var textDisplayDiv = document.getElementById("textDisplay2");
+    var textToDisplay; // = "testing";
+    textToDisplay = "testing2";
+    textToDisplay = 3;
+    var someNumber = 2;
+    var oneMoreNumber;
+    // oneMoreNumber += textToDisplay + someNumber; //results in NaN
+    oneMoreNumber = textToDisplay + someNumber; // results in NaN
+    console.log(oneMoreNumber);
+    if (textDisplayDiv)
+        textDisplayDiv.innerHTML = textToDisplay;
+}
