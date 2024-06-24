@@ -29,7 +29,7 @@ function showText2() {
 
     var textToDisplay; // = "testing";
 
-    textToDisplay = "testing";
+    textToDisplay = "testing2";
 
     textToDisplay = 3;
 
