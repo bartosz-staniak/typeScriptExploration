@@ -27,3 +27,7 @@ function showText2() {
     if (textDisplayDiv)
         textDisplayDiv.innerHTML = textToDisplay;
 }
+function sum(a, b) {
+    return a + b;
+}
+module.exports = sum;
