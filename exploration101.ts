@@ -44,7 +44,7 @@ function showText2() {
     if (textDisplayDiv) textDisplayDiv.innerHTML = textToDisplay;
 }
 
-function showText2() {
+function showText2_check() {
     
     const textDisplayDiv = document.getElementById("textDisplay2");
 
