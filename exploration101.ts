@@ -30,7 +30,7 @@ function showText2() {
 
     textToDisplay = "testing2";
 
-    textToDisplay = 3;
+    textToDisplay = 2;
 
     var someNumber = 2;
 
