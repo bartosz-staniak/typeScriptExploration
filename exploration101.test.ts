@@ -6,6 +6,6 @@ test('adds 1 + 2 to equal 3', () => {
 
 /*
 test ('check a string variable', () => {
-  expect(showText2_check);
+  expect(showText2_check);  //failed attempt to find the name of the function in brackets
 });
 */
