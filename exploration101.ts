@@ -9,7 +9,7 @@ function showText() {
 
     textToDisplay = "testing";
 
-    textToDisplay = 3;
+    textToDisplay = 1;
 
     var someNumber = 2;
 
