@@ -5,7 +5,7 @@ function showText() {
     var textDisplayDiv = document.getElementById("textDisplay");
     var textToDisplay; // = "testing";
     textToDisplay = "testing";
-    textToDisplay = 3;
+    textToDisplay = 1;
     var someNumber = 2;
     var oneMoreNumber;
     oneMoreNumber += textToDisplay + someNumber; //results in NaN
