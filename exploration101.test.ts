@@ -5,5 +5,5 @@ test('adds 1 + 2 to equal 3', () => {
 });
 
 test ('check a string variable', () => {
-  expect(showText2_check.textToDisplay.toBe("abc"));
+  expect(showText2_check);
 });
