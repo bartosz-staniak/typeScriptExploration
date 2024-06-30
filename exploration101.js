@@ -21,7 +21,7 @@ function showText2() {
     var someNumber = 2;
     var oneMoreNumber;
     // oneMoreNumber += textToDisplay + someNumber; //results in NaN
-    oneMoreNumber = textToDisplay + someNumber; // results in NaN
+    oneMoreNumber = textToDisplay + someNumber;
     console.log(oneMoreNumber);
     if (textDisplayDiv)
         textDisplayDiv.innerHTML = textToDisplay;
@@ -34,7 +34,7 @@ function showText2_check() {
     var someNumber = 2;
     var oneMoreNumber;
     // oneMoreNumber += textToDisplay + someNumber; //results in NaN
-    oneMoreNumber = textToDisplay + someNumber; // results in NaN
+    oneMoreNumber = textToDisplay + someNumber;
     console.log(oneMoreNumber);
     if (textDisplayDiv)
         textDisplayDiv.innerHTML = textToDisplay;
