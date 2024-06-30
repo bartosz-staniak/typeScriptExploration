@@ -6,7 +6,7 @@ function showText() {
     var textToDisplay; // = "testing";
     textToDisplay = "testing";
     textToDisplay = 1;
-    var someNumber = 2;
+    var someNumber = 1;
     var oneMoreNumber;
     oneMoreNumber += textToDisplay + someNumber; //results in NaN
     console.log(oneMoreNumber);
