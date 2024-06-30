@@ -59,7 +59,7 @@ function showText2_check() {
     var oneMoreNumber;
 
     // oneMoreNumber += textToDisplay + someNumber; //results in NaN
-    oneMoreNumber = textToDisplay + someNumber; // results in NaN
+    oneMoreNumber = textToDisplay + someNumber;
 
     console.log(oneMoreNumber);
 
