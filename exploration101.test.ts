@@ -15,5 +15,5 @@ test('two plus two is four', () => {
 });
 
 test ('six divided by two is three', () => {
-  expect(6 / 2).toBe(3);
+  expect(6 / 1).toBe(3);
 });
