@@ -13,3 +13,7 @@ test ('check a string variable', () => {
 test('two plus two is four', () => {
   expect(2 + 2).toBe(4);
 });
+
+test ('six divided by two is three', () => {
+  expect(6 / 2).toBe(3);
+});
