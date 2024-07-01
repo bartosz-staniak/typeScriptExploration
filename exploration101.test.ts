@@ -23,5 +23,5 @@ test ('six multiplied by two is 12', () => {
 });
 
 test ('six multiplied by two is 12', () => {
-  expect(6 * 2).not(12);
+  expect(6 * 2).toBe(12);
 });
