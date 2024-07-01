@@ -9,3 +9,7 @@ test ('check a string variable', () => {
   expect(showText2_check);  //failed attempt to find the name of the function in brackets
 });
 */
+
+test('two plus two is four', () => {
+  expect(2 + 2).toBe(4);
+});
