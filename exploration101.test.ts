@@ -21,3 +21,7 @@ test ('six divided by two is three', () => {
 test ('six multiplied by two is 12', () => {
   expect(6 * 2).toBe(12);
 });
+
+test ('six multiplied by two is 12', () => {
+  expect(6 * 2).not(12);
+});
