@@ -10,7 +10,7 @@ test ('check a string variable', () => {
 });
 */
 
-test ('six multiplied by two is 12', () => {
+test ('six multiplied by two is 12', () => { // Duplicated the check to observe behavior of the multiplied check when put in a non-consecutive position
   expect(6 * 2).toBe(12);
 });
 
