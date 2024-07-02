@@ -35,5 +35,5 @@ test('two plus two is not four', () => { // fails by design
 });
 
 test('two plus two is not four', () => { // fails by design
-  expect(2 + 2).toBe(!4);
+  expect(1 + 1).toBe(!4);
 });
