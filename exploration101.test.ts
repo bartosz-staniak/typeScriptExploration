@@ -10,6 +10,10 @@ test ('check a string variable', () => {
 });
 */
 
+test ('six multiplied by two is 12', () => {
+  expect(6 * 2).toBe(12);
+});
+
 test('two plus two is four', () => {
   expect(2 + 2).toBe(4);
 });
