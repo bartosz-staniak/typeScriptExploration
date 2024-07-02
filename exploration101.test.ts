@@ -29,3 +29,7 @@ test ('six multiplied by two is 12', () => {
 test ('six multiplied by two is 12', () => { // Duplicated the check to observe behavior of the doubled check
   expect(6 * 2).toBe(12);
 });
+
+test('two plus two is four', () => {
+  expect(2 + 2).toBe(4);
+});
