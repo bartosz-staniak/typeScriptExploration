@@ -30,6 +30,6 @@ test ('six multiplied by two is 12', () => { // Duplicated the check to observe 
   expect(6 * 2).toBe(12);
 });
 
-test('two plus two is not four', () => {
+test('two plus two is not four', () => { // expected to fail
   expect(2 + 2).toBe(!4);
 });
