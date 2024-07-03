@@ -40,3 +40,4 @@ test('one plus one is not four', () => { // fails against design WIP
 
 test('two plus two is not four', () => { // fails by design
   expect(2 + 2).toBe(!4);
+});
