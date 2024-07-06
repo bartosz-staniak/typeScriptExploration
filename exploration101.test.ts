@@ -34,7 +34,7 @@ test('two plus two is not four', () => { // fails by design
   expect(2 + 2).toBe(!4);
 });
 
-test('one plus one is not four', () => { // fails against design WIP
+test('one plus one is not four', () => { // fails against design WIP (reason for failing: expected boolean when received number)
   expect(1 + 1).toBe(!4);
 });
 
