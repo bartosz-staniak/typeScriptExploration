@@ -47,5 +47,5 @@ test('one plus two is not four', () => {
 });
 
 test('one plus two is not four', () => {
-  expect.not(1 + 2).not.toBe(4);
+  expect(1 + 2).not.toBe(4);
 });
