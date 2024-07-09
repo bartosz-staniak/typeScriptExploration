@@ -61,7 +61,7 @@ test('one plus two is not four', () => {
 
 
 test('string contains the word computer', () => {
-  expect('This will be read by thecomputer!').toContain('computer');
+  expect('This will be read by computer').toContain('computer');
 });
 
 
