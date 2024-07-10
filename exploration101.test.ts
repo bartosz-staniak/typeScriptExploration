@@ -90,6 +90,6 @@ test('string contains the word computer', () => {
 });
 
 
-test('string contains the word computer', () => {
-  expect('This will be read by the computer!').toBeCloseTo('keyboard');
+test('Number is close to another number', () => {
+  expect(5).toBeCloseTo(6);
 });
