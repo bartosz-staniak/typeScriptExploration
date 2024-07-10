@@ -91,5 +91,5 @@ test('string contains the word computer', () => {
 
 
 test('string contains the word computer', () => {
-  expect('This will be read by the computer!').not.toContain('keyboard');
+  expect('This will be read by the computer!').toBeCloseTo('keyboard');
 });
