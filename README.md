@@ -14,3 +14,5 @@ npm ERR!
 npm ERR! To see a list of scripts, run:
 npm ERR!   npm run
 -----
+
+git commit --amend -m "updated message"
