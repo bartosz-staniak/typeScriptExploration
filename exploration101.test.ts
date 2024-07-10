@@ -90,6 +90,6 @@ test('string contains the word computer', () => {
 });
 
 
-test('Number is close to another number', () => {
+test('Number is close to another number', () => { // fails as expected difference is < 0.005
   expect(5).toBeCloseTo(6);
 });
