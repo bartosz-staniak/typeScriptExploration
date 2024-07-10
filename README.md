@@ -16,3 +16,4 @@ npm ERR!   npm run
 -----
 
 git commit --amend -m "updated message"
+git push --force <repository> <branch>
