@@ -19,3 +19,4 @@ git commands after pushing an incorrect commit message
 
 git commit --amend -m "updated message"
 git push --force <repository> <branch>
+git push --force <repository> <branch>
