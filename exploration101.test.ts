@@ -78,3 +78,8 @@ test('string contains the word computer', () => {
 test('string contains the word computer', () => {
   expect('This will be read by computer!').toContain('computer');
 });
+
+
+test('string contains the word computer', () => {
+  expect('This will be read by computer!').toContain('computer');
+});
