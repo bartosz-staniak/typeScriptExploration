@@ -93,3 +93,8 @@ test('string contains the word computer', () => {
 test('5 is close to 6', () => { // fails as expected difference is < 0.005
   expect(5).toBeCloseTo(6);
 });
+
+
+test('5 is close to 6', () => { // fails as expected difference is < 0.005
+  expect(5).toBeCloseTo(6);
+});
