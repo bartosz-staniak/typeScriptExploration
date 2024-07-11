@@ -120,6 +120,6 @@ test('4 is close to 4.007', () => { // fails as expected difference is > 0.005
 });
 
 
-test('4 is close to 4.007', () => { // fails as expected difference is > 0.005
+test('2 times 2 be close to 4.007', () => { // fails as expected difference is > 0.005
   expect(2*2).toBeCloseTo(4.007); // Received difference:   0.006999999999999673
 });
