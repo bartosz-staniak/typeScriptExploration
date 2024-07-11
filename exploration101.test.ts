@@ -113,3 +113,8 @@ test('4 is close to 4.006', () => { // fails as expected difference is > 0.005
 test('4 is close to 4.016', () => { // fails as expected difference is > 0.005
   expect(4).toBeCloseTo(4.016);
 });
+
+
+test('4 is close to 4.006', () => { // fails as expected difference is > 0.005
+  expect(4).toBeCloseTo(4.006);
+});
