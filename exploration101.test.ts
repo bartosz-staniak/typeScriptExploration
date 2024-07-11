@@ -96,5 +96,5 @@ test('5 is close to 6', () => { // fails as expected difference is < 0.005
 
 
 test('5 is not close to 6', () => {
-  expect(5).toBeCloseTo(6);
+  expect(5).not.toBeCloseTo(6);
 });
