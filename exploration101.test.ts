@@ -142,6 +142,11 @@ test('0 is close to 0.00499', () => {
 });
 
 
+test('0 is close to 0.00499', () => {
+  expect(0).toBeCloseTo(0.00499);
+});
+
+
 test('0 is close to 0.00499999999999999999999999999999999999999999999999', () => { // fails as expected diffrence is not < 0.005 probably due to precision 2
   expect(0).toBeCloseTo(0.00499999999999999999999999999999999999999999999999); // Received difference:   0.005
 });
