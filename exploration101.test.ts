@@ -171,7 +171,7 @@ test('0 is close to 0.005', () => { // fails as expected difference is not < 0.0
 });
 
 test('0 is close to 0.0051', () => { // fails as expected difference is not < 0.005
-  expect(0).toBeCloseTo(0.0051); // Received difference:   0.005
+  expect(0).toBeCloseTo(0.0051); // Received difference:   0.0051
 });
 
 
