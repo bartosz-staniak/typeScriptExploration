@@ -156,8 +156,8 @@ test('0 is close to 0.00499999', () => {
   expect(0).toBeCloseTo(0.00499999);
 });
 
-test('0 is close to 0.00499999', () => {
-  expect(0).toBeCloseTo(0.00499999);
+test('0 is close to 0.004999999', () => {
+  expect(0).toBeCloseTo(0.004999999);
 });
 
 
