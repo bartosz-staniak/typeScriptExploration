@@ -181,6 +181,11 @@ test('0 is close to 0.005000000000000000000000000000000000000000000000002', () =
 });
 
 
+test('0 is close to 0.005000000000000000000000000000000000000000000000002', () => { // fails as expected difference is not < 0.005
+  expect(0).toBeCloseTo(0.005000000000000000000000000000000000000000000000002); // Received difference:   0.005
+});
+
+
 test('0 is close to 0.00501', () => { // fails as expected difference is not < 0.005
   expect(0).toBeCloseTo(0.00501); // Received difference:   0.00501
 });
