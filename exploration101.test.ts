@@ -242,7 +242,7 @@ test('1 is close to 1.005', () => { // passes unexpectedly as the difference is 
 
 
 test('1 is close to 1.00501', () => { // fails as expected difference is > 0.005
-  expect(1).toBeCloseTo(1.00501); // Received difference: 0.0051000000000001044
+  expect(1).toBeCloseTo(1.00501); // Received difference: 0.005009999999999959
 });
 
 
