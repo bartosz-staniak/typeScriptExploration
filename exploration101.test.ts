@@ -137,8 +137,8 @@ test('0 is close to 0.0049', () => {
 });
 
 
-test('0 is close to 0.0049', () => {
-  expect(0).toBeCloseTo(0.0049);
+test('0 is close to 0.00499', () => {
+  expect(0).toBeCloseTo(0.00499);
 });
 
 
