@@ -307,6 +307,7 @@ test('1,000,000,000 is close to 1,000,000,000.005', () => { // passes unexpected
 });
 
 
+// toBeCloseTo documentation: Using exact equality with floating point numbers is a bad idea. Rounding means that intuitive things fail. The default for numDigits is 2.
 test('1,000,000,001 is close to 1,000,000,001.005', () => { // passes unexpectedly as the difference is not < 0.005
   expect(1000000001).toBeCloseTo(1000000001.005);
 });
