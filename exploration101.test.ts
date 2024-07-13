@@ -269,3 +269,8 @@ test('10 is close to 10.005', () => { // fails as expected but somehow the calcu
 test('100 is close to 100.005', () => { // passes unexpectedly as the difference is not < 0.005
   expect(100).toBeCloseTo(100.005);
 });
+
+
+test('100 is close to 100.005', () => { // passes unexpectedly as the difference is not < 0.005
+  expect(100).toBeCloseTo(100.005);
+});
