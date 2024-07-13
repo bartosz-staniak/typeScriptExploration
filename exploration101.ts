@@ -1,6 +1,8 @@
 export{} //solves duplicate function error
 // yet produces in the browser logs a "ReferenceError: exports is not defined"
 
+const textDisplayDiv = document.getElementById("textDisplay");
+
 function showText() {
     
     const textDisplayDiv = document.getElementById("textDisplay");
