@@ -5,7 +5,7 @@ const textDisplayDiv = document.getElementById("textDisplay");
 
 function showText() {
     
-    const textDisplayDiv = document.getElementById("textDisplay");
+    /*const*/ textDisplayDiv = document.getElementById("textDisplay");
 
     var textToDisplay; // = "testing";
 
