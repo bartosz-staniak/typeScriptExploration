@@ -1,8 +1,9 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+exports.__esModule = true;
 // yet produces in the browser logs a "ReferenceError: exports is not defined"
+var textDisplayDiv = document.getElementById("textDisplay");
 function showText() {
-    var textDisplayDiv = document.getElementById("textDisplay");
+    //const textDisplayDiv = document.getElementById("textDisplay");
     var textToDisplay; // = "testing";
     textToDisplay = "testing";
     textToDisplay = 1;
