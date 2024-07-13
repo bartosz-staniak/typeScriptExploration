@@ -43,7 +43,7 @@ function showText2() {
 
     console.log(oneMoreNumber);
 
-    if (textDisplayDiv) textDisplayDiv.innerHTML = textToDisplay;
+    if (textDisplayDiv2) textDisplayDiv2.innerHTML = textToDisplay;
 }
 
 function showText2_check() {
