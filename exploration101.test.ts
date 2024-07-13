@@ -305,3 +305,8 @@ test('1,000,000 is close to 1,000,000.005', () => { // fails as expected but som
 test('1,000,000,000 is close to 1,000,000,000.005', () => { // passes unexpectedly as the difference is not < 0.005
   expect(1000000000).toBeCloseTo(1000000000.005);
 });
+
+
+test('1,000,000,000 is close to 1,000,000,000.005', () => { // passes unexpectedly as the difference is not < 0.005
+  expect(1000000000).toBeCloseTo(1000000000.005);
+});
