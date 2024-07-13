@@ -90,6 +90,9 @@ test('string contains the word computer', () => {
 });
 
 
+///////////////// toBeCloseTo method /////////////////
+
+
 test('5 is close to 6', () => { // fails as expected difference is > 0.005
   expect(5).toBeCloseTo(6);
 });
