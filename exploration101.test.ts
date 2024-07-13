@@ -291,7 +291,7 @@ test('10,000 is close to 10,000.005', () => { // passes unexpectedly as the diff
 });
 
 
-test('100,000 is close to 100,000.005', () => { // passes unexpectedly as the difference is not < 0.005
+test('100,000 is close to 100,000.005', () => { // fails as expected but somehow the calculated difference is > 0.005
   expect(100000).toBeCloseTo(100000.005);
 });
 
