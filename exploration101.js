@@ -1,7 +1,7 @@
 "use strict";
 exports.__esModule = true;
 // yet produces in the browser logs a "ReferenceError: exports is not defined"
-// const textDisplayDiv = document.getElementById("textDisplay");
+var textDisplayDiv = document.getElementById("textDisplay");
 function showText() {
     var textDisplayDiv = document.getElementById("textDisplay");
     var textToDisplay; // = "testing";
@@ -15,7 +15,7 @@ function showText() {
         textDisplayDiv.innerHTML = textToDisplay;
 }
 function showText2() {
-    var textDisplayDiv = document.getElementById("textDisplay2");
+    var textDisplayDiv2 = document.getElementById("textDisplay2");
     var textToDisplay; // = "testing";
     textToDisplay = "testing2";
     textToDisplay = 2;
@@ -24,8 +24,8 @@ function showText2() {
     // oneMoreNumber += textToDisplay + someNumber; //results in NaN
     oneMoreNumber = textToDisplay + someNumber;
     console.log(oneMoreNumber);
-    if (textDisplayDiv)
-        textDisplayDiv.innerHTML = textToDisplay;
+    if (textDisplayDiv2)
+        textDisplayDiv2.innerHTML = textToDisplay;
 }
 function showText2_check() {
     var textDisplayDiv = document.getElementById("textDisplay2");
