@@ -19,7 +19,7 @@ function showText() {
     oneMoreNumber += textToDisplay + someNumber; //results in NaN
     console.log(oneMoreNumber);
     if (textDisplayDiv)
-        textDisplayDiv.innerHTML = textToDisplay; // HTML element is not updated despite fixing not defined error for textDisplayDiv
+        textDisplayDiv.innerHTML = textToDisplay; // HTML element is not updated with global variable despite fixing not defined error for textDisplayDiv
 }
 function showText2() {
     var textDisplayDiv2 = document.getElementById("textDisplay2");
