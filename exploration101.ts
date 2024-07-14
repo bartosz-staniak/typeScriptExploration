@@ -2,11 +2,10 @@ export{} //solves duplicate function error
 // yet produces in the browser logs a "ReferenceError: exports is not defined"
 
 declare global {
-    
+
+    const textDisplayDiv = document.getElementById("textDisplay");
+
 }
-
-
-const textDisplayDiv = document.getElementById("textDisplay");
 
 function showText() {
     
