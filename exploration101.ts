@@ -7,6 +7,8 @@ declare global {
 
 }
 
+//
+
 function showText() {
     
     // const textDisplayDiv = document.getElementById("textDisplay");
