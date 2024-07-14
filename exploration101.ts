@@ -7,7 +7,7 @@ declare global {
 
 }
 
-textDisplayDiv = document.getElementById("textDisplay");
+textDisplayDiv = document.getElementById("textDisplay"); // textDisplayDiv is not defined error
 
 function showText() {
     
