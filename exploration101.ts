@@ -3,11 +3,11 @@ export{} //solves duplicate function error
 
 declare global {
 
-    var textDisplayDiv = document.getElementById("textDisplay");
+    var textDisplayDiv
 
 }
 
-//
+// = document.getElementById("textDisplay");
 
 function showText() {
     
