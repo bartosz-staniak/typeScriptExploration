@@ -8,7 +8,7 @@ declare global {
 
 }
 */
-var textDisplayDiv = document.getElementById("textDisplay"); // textDisplayDiv is not defined error
+var textDisplayDiv = document.getElementById("textDisplay"); // not defined error gone
 function showText() {
     // const textDisplayDiv = document.getElementById("textDisplay");
     var textToDisplay; // = "testing";
@@ -19,7 +19,7 @@ function showText() {
     oneMoreNumber += textToDisplay + someNumber; //results in NaN
     console.log(oneMoreNumber);
     if (textDisplayDiv)
-        textDisplayDiv.innerHTML = textToDisplay;
+        textDisplayDiv.innerHTML = textToDisplay; // HTML element is not updated despite fixing not defined error for textDisplayDiv
 }
 function showText2() {
     var textDisplayDiv2 = document.getElementById("textDisplay2");
