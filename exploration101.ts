@@ -7,7 +7,7 @@ declare global {
 
 }
 
-textDisplayDiv = document.getElementById("textDisplay");
+// textDisplayDiv = document.getElementById("textDisplay");
 
 function showText() {
     
