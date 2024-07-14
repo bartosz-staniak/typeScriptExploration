@@ -9,7 +9,7 @@ declare global {
 }
 */
 
-textDisplayDiv = document.getElementById("textDisplay"); // textDisplayDiv is not defined error
+var textDisplayDiv = document.getElementById("textDisplay"); // textDisplayDiv is not defined error
 
 function showText() {
     
