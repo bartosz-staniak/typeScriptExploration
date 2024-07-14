@@ -8,9 +8,9 @@ declare global {
 
 }
 */
-var textDisplayDiv = document.getElementById("textDisplay"); // not defined error gone
+// var textDisplayDiv = document.getElementById("textDisplay"); // not defined error gone
 function showText() {
-    // const textDisplayDiv = document.getElementById("textDisplay");
+    var textDisplayDiv = document.getElementById("textDisplay");
     var textToDisplay; // = "testing";
     textToDisplay = "testing";
     textToDisplay = 1;
