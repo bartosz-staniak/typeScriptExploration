@@ -1,11 +1,13 @@
 export{} //solves duplicate function error
 // yet produces in the browser logs a "ReferenceError: exports is not defined"
 
+/*
 declare global {
 
     var textDisplayDiv
 
 }
+*/
 
 textDisplayDiv = document.getElementById("textDisplay"); // textDisplayDiv is not defined error
 
