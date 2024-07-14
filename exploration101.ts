@@ -13,7 +13,7 @@ declare global {
 
 function showText() {
     
-    // const textDisplayDiv = document.getElementById("textDisplay");
+    const textDisplayDiv = document.getElementById("textDisplay");
 
     var textToDisplay; // = "testing";
 
