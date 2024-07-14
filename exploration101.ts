@@ -3,7 +3,7 @@ export{} //solves duplicate function error
 
 declare global {
 
-    var textDisplayDiv
+    const textDisplayDiv
 
 }
 
