@@ -29,7 +29,7 @@ function showText() {
 
     console.log(oneMoreNumber);
 
-    if (textDisplayDiv) textDisplayDiv.innerHTML = textToDisplay; // HTML element is not updated despite fixing not defined error for textDisplayDiv
+    if (textDisplayDiv) textDisplayDiv.innerHTML = textToDisplay; // HTML element is not updated with global variable despite fixing not defined error for textDisplayDiv
 }
 
 function showText2() {
