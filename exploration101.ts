@@ -11,7 +11,7 @@ declare global {
 
 function showText() {
     
-    textDisplayDiv = document.getElementById("textDisplay");
+    const textDisplayDiv = document.getElementById("textDisplay");
 
     var textToDisplay; // = "testing";
 
