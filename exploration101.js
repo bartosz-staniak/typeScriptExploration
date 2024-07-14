@@ -1,6 +1,14 @@
 "use strict";
 exports.__esModule = true;
-textDisplayDiv = document.getElementById("textDisplay");
+// yet produces in the browser logs a "ReferenceError: exports is not defined"
+/*
+declare global {
+
+    var textDisplayDiv
+
+}
+*/
+var textDisplayDiv = document.getElementById("textDisplay"); // textDisplayDiv is not defined error
 function showText() {
     // const textDisplayDiv = document.getElementById("textDisplay");
     var textToDisplay; // = "testing";
