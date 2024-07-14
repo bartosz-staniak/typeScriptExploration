@@ -1,8 +1,8 @@
 "use strict";
 exports.__esModule = true;
-// textDisplayDiv = document.getElementById("textDisplay");
+textDisplayDiv = document.getElementById("textDisplay");
 function showText() {
-    textDisplayDiv = document.getElementById("textDisplay");
+    // const textDisplayDiv = document.getElementById("textDisplay");
     var textToDisplay; // = "testing";
     textToDisplay = "testing";
     textToDisplay = 1;
