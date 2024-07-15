@@ -11,6 +11,7 @@ declare global {
 var textDisplayDiv = document.getElementById("textDisplay"); // not defined error gone; perhaps it doesn't point to DOM somehow
 // var textDisplayDiv3 = document.getElementById("textDisplay3");
 var textDisplayDiv3;
+var a = 10;
 var helloworld = "Hello world!";
 function getTextDisplayDiv3() {
     textDisplayDiv3 = document.getElementById("textDisplay3");
@@ -33,6 +34,7 @@ function showText() {
     var oneMoreNumber;
     oneMoreNumber += textToDisplay + someNumber; //results in NaN
     console.log(oneMoreNumber);
+    console.log(a);
     if (textDisplayDiv)
         textDisplayDiv.innerHTML = textToDisplay; // HTML element is not updated with global variable despite fixing not defined error for textDisplayDiv
 }
