@@ -7,7 +7,7 @@ test('adds 1 + 2 to equal 3', () => {
 const showText = require('.exploration101');
 
 test('showtext', () => {
-  expect(showText.textDisplay).toBe("testing");
+  expect(showText.textToDisplay).toBe("testing");
 });
 
 /*
