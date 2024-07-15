@@ -3,7 +3,6 @@ export{} //solves duplicate function error yet breaks sum in tests and makes glo
 
 // var textDisplayDiv = document.getElementById("textDisplay"); // not defined error gone; perhaps it doesn't point to DOM somehow
 // var textDisplayDiv3 = document.getElementById("textDisplay3");
-console.log(module);
 var textDisplayDiv3;
 
 var helloworld = "Hello world!";
