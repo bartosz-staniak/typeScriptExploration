@@ -10,6 +10,7 @@ declare global {
 */
 
 var textDisplayDiv = document.getElementById("textDisplay"); // not defined error gone; perhaps it doesn't point to DOM somehow
+var textDipslayDiv3 = document.getElementById("textDisplay3");
 
 let helloworld = "Hello world!";
 
