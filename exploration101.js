@@ -17,7 +17,8 @@ function getTextDisplayDiv3() {
     return textDisplayDiv3;
 }
 function showTextInTextDisplay3() {
-    var returnedTextDisplayDiv3 = getTextDisplayDiv3();
+    // var returnedTextDisplayDiv3 = getTextDisplayDiv3();
+    var returnedTextDisplayDiv3 = document.getElementById("textDisplay3");
     if (returnedTextDisplayDiv3)
         returnedTextDisplayDiv3.innerHTML = helloworld; // prints 'undefined' on the page
 }
