@@ -12,6 +12,8 @@ var textDisplayDiv = document.getElementById("textDisplay"); // not defined erro
 var textDisplayDiv3 = document.getElementById("textDisplay3");
 var helloworld = "Hello world!";
 function showTextInTextDisplay3() {
+    if (textDisplayDiv3)
+        textDisplayDiv3.innerHTML = helloworld;
 }
 function showText() {
     // var textDisplayDiv = document.getElementById("textDisplay");
