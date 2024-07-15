@@ -15,10 +15,10 @@ var textDisplayDiv3 = document.getElementById("textDisplay3");
 let helloworld = "Hello world!";
 
 function getTextDisplayDiv3() {
-    
+
 }
 
-function showTextInTextDisplay3() {
+function showTextInTextDisplay3(textDisplayDiv3) {
     if(textDisplayDiv3) textDisplayDiv3.innerHTML = helloworld;
 }
 
