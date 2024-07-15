@@ -22,7 +22,7 @@ function getTextDisplayDiv3() {
 
 function showTextInTextDisplay3() {
     // var returnedTextDisplayDiv3 = getTextDisplayDiv3();
-    // let helloworld = "Hello world!";
+    // let helloworld = "Hello world!"; // string is printed correctly as innerHTML when the variable scope is this function
     var returnedTextDisplayDiv3 = document.getElementById("textDisplay3");
     if(returnedTextDisplayDiv3) returnedTextDisplayDiv3.innerHTML = helloworld; // prints 'undefined' on the page
 }
