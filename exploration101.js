@@ -3,7 +3,6 @@ exports.__esModule = true;
 // yet produces in the browser logs a "ReferenceError: exports is not defined"
 // var textDisplayDiv = document.getElementById("textDisplay"); // not defined error gone; perhaps it doesn't point to DOM somehow
 // var textDisplayDiv3 = document.getElementById("textDisplay3");
-console.log(module);
 var textDisplayDiv3;
 var helloworld = "Hello world!";
 function getTextDisplayDiv3() {
@@ -27,6 +26,7 @@ function showText() {
     var oneMoreNumber;
     oneMoreNumber += textToDisplay + someNumber; //results in NaN
     console.log(oneMoreNumber);
+    console.log(module);
     if (textDisplayDiv)
         textDisplayDiv.innerHTML = textToDisplay; // HTML element is not updated with global variable despite fixing not defined error for textDisplayDiv
 }
