@@ -14,7 +14,7 @@ var textDisplayDiv = document.getElementById("textDisplay"); // not defined erro
 var textDisplayDiv3;
 
 let a;
-exports.a = 10;
+module.exports.a = 10;
 
 var helloworld = "Hello world!";
 
