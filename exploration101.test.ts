@@ -6,6 +6,10 @@ test('adds 1 + 2 to equal 3', () => {
 
 const showText = require('.exploration101');
 
+test('showtext', () => {
+
+});
+
 /*
 test ('check a string variable', () => {
   expect(showText2_check);  //failed attempt to find the name of the function in brackets
