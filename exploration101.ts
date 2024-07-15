@@ -1,5 +1,3 @@
-const a = require('./variables101');
-
 export{} //solves duplicate function error yet breaks sum in tests and makes global variables undefined
 // yet produces in the browser logs a "ReferenceError: exports is not defined"
 
