@@ -22,7 +22,7 @@ function showTextInTextDisplay3() {
 
 function showText() {
     
-    // var textDisplayDiv = document.getElementById("textDisplay");
+    var textDisplayDiv = document.getElementById("textDisplay");
 
     var textToDisplay; // = "testing";
 
