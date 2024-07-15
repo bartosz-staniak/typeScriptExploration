@@ -28,7 +28,7 @@ function showTextInTextDisplay3() {
     // let helloworld = "Hello world!"; // string is printed correctly as innerHTML when the variable scope is this function
     console.log(helloworld);
     var returnedTextDisplayDiv3 = document.getElementById("textDisplay3");
-    if(returnedTextDisplayDiv3) returnedTextDisplayDiv3.innerHTML = helloworld; // prints 'undefined' on the page
+    if(returnedTextDisplayDiv3) returnedTextDisplayDiv3.innerHTML = helloworld; // prints 'undefined' on the page when using export {}
 }
 
 function showText() {
