@@ -14,11 +14,12 @@ var textDisplayDiv3;
 var helloworld = "Hello world!";
 function getTextDisplayDiv3() {
     textDisplayDiv3 = document.getElementById("textDisplay3");
+    return textDisplayDiv3;
 }
 function showTextInTextDisplay3() {
     getTextDisplayDiv3();
     if (textDisplayDiv3)
-        textDisplayDiv3.innerHTML = helloworld;
+        textDisplayDiv3.innerHTML = helloworld; // prints 'undefined' on the page
 }
 function showText() {
     // var textDisplayDiv = document.getElementById("textDisplay");
