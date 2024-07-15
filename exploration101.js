@@ -8,7 +8,11 @@ declare global {
 
 }
 */
-var textDisplayDiv = document.getElementById("textDisplay"); // not defined error gone
+var textDisplayDiv = document.getElementById("textDisplay"); // not defined error gone; perhaps it doesn't point to DOM somehow
+var textDisplayDiv3 = document.getElementById("textDisplay3");
+var helloworld = "Hello world!";
+function showTextInTextDisplay3() {
+}
 function showText() {
     // var textDisplayDiv = document.getElementById("textDisplay");
     var textToDisplay; // = "testing";
