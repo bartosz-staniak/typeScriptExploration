@@ -24,7 +24,7 @@ function showTextInTextDisplay3() {
     console.log(helloworld);
     var returnedTextDisplayDiv3 = document.getElementById("textDisplay3");
     if (returnedTextDisplayDiv3)
-        returnedTextDisplayDiv3.innerHTML = helloworld; // prints 'undefined' on the page
+        returnedTextDisplayDiv3.innerHTML = helloworld; // prints 'undefined' on the page when using export {}
 }
 function showText() {
     // var textDisplayDiv = document.getElementById("textDisplay");
