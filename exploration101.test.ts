@@ -4,11 +4,11 @@ test('adds 1 + 2 to equal 3', () => {
   expect(sum(1, 2)).toBe(3);
 });
 
-/*const showText = require('./exploration101');
+const showText = require('./exploration101');
 
 test('showtext', () => {
   expect(showText.textToDisplay).toBe("testing");
-});*/
+});
 
 /*
 test ('check a string variable', () => {
