@@ -13,6 +13,10 @@ var textDisplayDiv = document.getElementById("textDisplay"); // not defined erro
 
 let helloworld = "Hello world!";
 
+function showTextInTextDisplay3() {
+    
+}
+
 function showText() {
     
     // var textDisplayDiv = document.getElementById("textDisplay");
