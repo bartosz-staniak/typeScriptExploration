@@ -11,6 +11,8 @@ declare global {
 
 var textDisplayDiv = document.getElementById("textDisplay"); // not defined error gone; perhaps it doesn't point to DOM somehow
 
+let helloworld = "Hello world!";
+
 function showText() {
     
     // var textDisplayDiv = document.getElementById("textDisplay");
