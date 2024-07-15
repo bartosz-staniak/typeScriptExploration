@@ -21,7 +21,7 @@ function getTextDisplayDiv3() {
 
 function showTextInTextDisplay3() {
     getTextDisplayDiv3();
-    if(textDisplayDiv3) textDisplayDiv3.innerHTML = helloworld;
+    if(textDisplayDiv3) textDisplayDiv3.innerHTML = helloworld; // prints 'undefined' on the page
 }
 
 function showText() {
