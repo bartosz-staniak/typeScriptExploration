@@ -1,4 +1,5 @@
-// export{} //solves duplicate function error
+"use strict";
+exports.__esModule = true;
 // yet produces in the browser logs a "ReferenceError: exports is not defined"
 /*
 declare global {
