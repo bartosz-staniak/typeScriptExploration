@@ -16,7 +16,7 @@ var textDisplayDiv3;
 let helloworld = "Hello world!";
 
 function getTextDisplayDiv3() {
-    var textDisplayDiv3 = document.getElementById("textDisplay3");
+    textDisplayDiv3 = document.getElementById("textDisplay3");
 }
 
 function showTextInTextDisplay3() {
