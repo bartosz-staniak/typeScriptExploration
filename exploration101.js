@@ -12,7 +12,7 @@ var textDisplayDiv = document.getElementById("textDisplay"); // not defined erro
 // var textDisplayDiv3 = document.getElementById("textDisplay3");
 var textDisplayDiv3;
 var a;
-exports.a = 10;
+module.exports.a = 10;
 var helloworld = "Hello world!";
 function getTextDisplayDiv3() {
     textDisplayDiv3 = document.getElementById("textDisplay3");
