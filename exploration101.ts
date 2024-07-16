@@ -5,9 +5,7 @@ export{} //solves duplicate function error yet breaks sum in tests and makes glo
 // var textDisplayDiv3 = document.getElementById("textDisplay3");
 var textDisplayDiv3;
 
-let object {
-    value: number // 'number' only refers to a type, but is being used as a value here.
-}
+let object {}
 function initialize() {
     object.value = 10;
 }
