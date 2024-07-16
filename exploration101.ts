@@ -7,7 +7,7 @@ var textDisplayDiv3;
 
 let object = {
     value: number; // 'number' only refers to a type, but is being used as a value here.
-};
+}
 function initialize() {
     object.value = 10;
 }
