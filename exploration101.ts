@@ -40,7 +40,7 @@ function showText() {
 
     if (textDisplayDiv) textDisplayDiv.innerHTML = textToDisplay; // HTML element is not updated with global variable despite fixing not defined error for textDisplayDiv
 }
-module.exports = showText;
+// module.exports = showText;
 
 function showText2() {
     
