@@ -28,8 +28,9 @@ function showText(objectTs) {
     var someNumber = 1;
     var oneMoreNumber;
     oneMoreNumber += textToDisplay + someNumber; //results in NaN
+    objectTs.value = 10;
     console.log(oneMoreNumber);
-    console.log(objectTs.value);
+    console.log(objectTs.value); // error: Cannot read properties of undefined (reading 'value')
     if (textDisplayDiv)
         textDisplayDiv.innerHTML = textToDisplay; // HTML element is not updated with global variable despite fixing not defined error for textDisplayDiv
 }
