@@ -44,6 +44,7 @@ function showText() {
     oneMoreNumber += textToDisplay + someNumber; //results in NaN
 
     console.log(oneMoreNumber);
+    console.log(objectTs.value);
 
     if (textDisplayDiv) textDisplayDiv.innerHTML = textToDisplay; // HTML element is not updated with global variable despite fixing not defined error for textDisplayDiv
 }
