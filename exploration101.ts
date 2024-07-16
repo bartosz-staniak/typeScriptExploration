@@ -43,6 +43,8 @@ function showText(objectTs) {
 
     oneMoreNumber += textToDisplay + someNumber; //results in NaN
 
+    objectTs.value = 10;
+
     console.log(oneMoreNumber);
     console.log(objectTs.value); // error: Cannot read properties of undefined (reading 'value')
 
