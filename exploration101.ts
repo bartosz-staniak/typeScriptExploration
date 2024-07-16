@@ -9,7 +9,7 @@ type objectTs = {
     value : number;
 };
 function initialize() {
-    object.value = 10;
+    objectTs.value = 10;
 }
 
 var helloworld = "Hello world!";
