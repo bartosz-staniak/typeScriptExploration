@@ -28,7 +28,7 @@ function showText(objectTs) {
     var someNumber = 1;
     var oneMoreNumber;
     oneMoreNumber += textToDisplay + someNumber; //results in NaN
-    objectTs.value = 10;
+    initialize(objectTs);
     console.log(oneMoreNumber);
     console.log(objectTs.value); // error: Cannot read properties of undefined (reading 'value')
     if (textDisplayDiv)
