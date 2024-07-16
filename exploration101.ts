@@ -85,8 +85,3 @@ function showText2_check() {
 
     if (textDisplayDiv) textDisplayDiv.innerHTML = textToDisplay;
 }
-
-function sum(a, b) {
-    return a + b;
-  }
-  module.exports = sum;
