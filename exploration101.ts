@@ -7,7 +7,7 @@ var textDisplayDiv3;
 
 let object = {};
 function initialize() {
-    
+    object.value = 10;
 }
 
 var helloworld = "Hello world!";
