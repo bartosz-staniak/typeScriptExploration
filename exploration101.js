@@ -4,6 +4,9 @@ exports.__esModule = true;
 // var textDisplayDiv = document.getElementById("textDisplay"); // not defined error gone; perhaps it doesn't point to DOM somehow
 // var textDisplayDiv3 = document.getElementById("textDisplay3");
 var textDisplayDiv3;
+function initialize(objectTs) {
+    objectTs.value = 10;
+}
 var helloworld = "Hello world!";
 function getTextDisplayDiv3() {
     textDisplayDiv3 = document.getElementById("textDisplay3");
@@ -17,7 +20,7 @@ function showTextInTextDisplay3() {
     if (returnedTextDisplayDiv3)
         returnedTextDisplayDiv3.innerHTML = helloworld; // prints 'undefined' on the page when using export {}
 }
-function showText() {
+function showText(objectTs) {
     var textDisplayDiv = document.getElementById("textDisplay");
     var textToDisplay; // = "testing";
     textToDisplay = "testing";
@@ -26,6 +29,7 @@ function showText() {
     var oneMoreNumber;
     oneMoreNumber += textToDisplay + someNumber; //results in NaN
     console.log(oneMoreNumber);
+    console.log(objectTs.value);
     if (textDisplayDiv)
         textDisplayDiv.innerHTML = textToDisplay; // HTML element is not updated with global variable despite fixing not defined error for textDisplayDiv
 }
