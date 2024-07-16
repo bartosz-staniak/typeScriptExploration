@@ -8,7 +8,7 @@ var textDisplayDiv3;
 type objectTs = {
     value : number;
 };
-function initialize() {
+function initialize(objectTs : objectTs) {
     objectTs.value = 10;
 }
 
