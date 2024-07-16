@@ -6,6 +6,9 @@ export{} //solves duplicate function error yet breaks sum in tests and makes glo
 var textDisplayDiv3;
 
 let object = {};
+function initialize() {
+    
+}
 
 var helloworld = "Hello world!";
 
