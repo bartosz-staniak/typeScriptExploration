@@ -20,7 +20,7 @@ function showTextInTextDisplay3() {
     if(returnedTextDisplayDiv3) returnedTextDisplayDiv3.innerHTML = helloworld; // prints 'undefined' on the page when using export {}
 }
 
-function showText(objectTs) {
+function showText() {
     
     var textDisplayDiv = document.getElementById("textDisplay");
 
